@@ -1,0 +1,121 @@
+@font-face{
+	font-family: 'monoton',cursive;
+	scr:url(../font/Monoton-Regular.ttf);
+}
+
+@font-face{
+	font-family: 'Antonio';
+	scr:url(../font/Antonio-Regular.ttf);
+}
+
+.heading .logo{
+	font-family: 'Antonio',cursive;
+
+color: blue;
+/*font-size: 32*/
+}
+
+.heading{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 100px;
+	background-color: brown;
+}
+.anh1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.anh1 img {
+width: 700px;
+}
+/*===========*/
+
+.dropdown-container {
+	position: relative;
+}
+.shown-block {
+	display: block !important;
+}
+
+.active-menu {
+	cursor: pointer;
+}
+
+.chinh7423{
+	justify-content: space-between;
+	display: none;
+	position: absolute;
+	left: 0;
+	background: white;
+}
+
+.chinh7422{
+	justify-content: space-between;
+	display: flex;
+}
+
+.chinh7422 li,
+.chinh7422 li a {
+	list-style: none;
+	text-align: left;
+	margin-right: 10px;
+}
+
+/*.active-menu:hover .chinh7423 {
+	display: flex;
+}*/
+
+
+.chinh7423 li,
+.chinh7423 li a {
+	list-style: none;
+	text-align: left;
+	width: 150px;
+}
+
+
+
+
+.table-container {
+	width: 50%;
+}
+.anh2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.anh2 img{
+	width: 700px;
+}
+.abc{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	}
+	
+	
+.dangnhap {
+	display: inline-block;
+	padding:  4px 8px;
+	border: 1px solid black;
+	background-color: #EFEFEF;
+	color: black;
+	border-radius: 5px;
+	text-decoration: none;
+}	
+
+.test-fontsize {
+	font-size: 30px;
+}
+.chse-fontsize {
+	font-size: 70px;
+}
+.icon {
+style="color: "green";
+}
+.thongtin {
+	background-color: black;
+	color: black;
+}

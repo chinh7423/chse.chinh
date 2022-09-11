@@ -1,0 +1,42 @@
+	<form id="form">
+	Nhập tên :
+	<input type="text" name="fullname">
+	Nhập tuổi :
+	<input type="text" name="age">
+	Nhập email:
+	<input type="text" name="email">
+	Nhập url:
+	<input type="text" name="url">
+	<input type="submit" value="show info">
+	đăng ký:
+	<input type="submit" value="đăng ký">
+</form>
+<script>
+	var obj = {
+		rules: {
+			fullname:{
+				required: true,
+				min:2
+			},
+          age:{
+          	number: true
+          },
+          email:{
+          	email: true
+          },
+          url:{
+          	url: true
+          },
+          messages:{
+          	fullname:{
+          		required:'tên phải nhập'
+          		minlength:'tên ít nhất 2 ký tự'
+          	},
+          	age {
+          		number:'tuổi phải là số '
+          	}
+          }
+		}
+	}
+	$('#form').validate(obj);
+</script>
