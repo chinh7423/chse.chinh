@@ -1,0 +1,9 @@
+
+@media(max-width: 767px){
+	.row {
+		flex-wrap: wrap;
+	}
+	.content, .images {
+		width: 100%
+	}
+}

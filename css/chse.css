@@ -4,15 +4,20 @@
 }
 
 @font-face{
-	font-family: 'Antonio';
+	font-family: 'Antonio',cursive;
 	scr:url(../font/Antonio-Regular.ttf);
 }
 
 .heading .logo{
 	font-family: 'Antonio',cursive;
 
-color: blue;
-/*font-size: 32*/
+color: yellow;
+font-size: 30px;
+
+}
+
+body {
+	font-family: monospace;
 }
 
 .heading{
@@ -28,7 +33,9 @@ color: blue;
 }
 .anh1 img {
 width: 700px;
+
 }
+
 /*===========*/
 
 .dropdown-container {
@@ -62,9 +69,6 @@ width: 700px;
 	margin-right: 10px;
 }
 
-/*.active-menu:hover .chinh7423 {
-	display: flex;
-}*/
 
 
 .chinh7423 li,
@@ -79,7 +83,10 @@ width: 700px;
 
 .table-container {
 	width: 50%;
+	display: flex;
 }
+
+
 .anh2{
 	display: flex;
 	justify-content: space-around;
@@ -118,4 +125,11 @@ style="color: "green";
 .thongtin {
 	background-color: black;
 	color: black;
+}
+.active-menu .fa-sharp fa-solid fa-list{
+	font-size: 30px;
+}
+
+.fa-classic, .fa-regular, .fa-solid, .far, .fas {
+    font-family: monospace ,"Font Awesome 6 Free";
 }

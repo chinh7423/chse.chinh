@@ -10,6 +10,3 @@ activator.addEventListener('click',function(){
 	}
 	}
 })
-// activator.addEventListener('mouseleave',function(){
-// 	dropdown.classList.remove('shown-flex');
-// })
